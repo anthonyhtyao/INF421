@@ -12,7 +12,7 @@ public class StableMatching implements StableMatchingInterface{
 		int[] bride = new int[n];
 		int[] womenPair = new int[n];	
 		int[] asked = new int[n];
-		int[] notEngaged = new int[n];	//pile of g not engaged
+		int[] notEngaged = new int[n];	//not engaged's pile
 		int indNot = 0;
 		for(int i=0;i<n;i++)
 		{
